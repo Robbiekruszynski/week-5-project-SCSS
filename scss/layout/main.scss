@@ -1,24 +1,33 @@
 * {
   box-sizing: border-box;
-  border: 1px solid red
+  // border: 1px solid red
 }
 
-
+.parent {
+  display: flex;
+}
   .left{
       display: flex;
       width: 50vw;
       flex-wrap: wrap;
       justify-content: center;
       align-items: center;
+
+      .onFoot {
+        margin-top: 100px;
+        width: 45vw;
+        display: flex;
+        justify-content: flex-start;
+      }
   }
 
   .right{
-    // margin-top: 15px;
-    // display: flex;
+    margin-top: 15px;
+    display: flex;
     width: 40vw;
-    // flex-wrap: wrap;
-    // justify-content: flex-start;
-    // align-items: center;
-    // width:48%;
-    // height: 60%;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    width:48%;
+    height: 60%;
   }

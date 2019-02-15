@@ -2,33 +2,53 @@
   font-family: helvetica, sans-serif;
   font-size: 13px; }
 
+.navParent {
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid lightgrey; }
+  .navParent img {
+    width: 100%; }
+
+.navigateLeft {
+  height: 40px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center; }
+
+.navigateRight {
+  height: 40px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center; }
+
+.navigate {
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+
 .banner {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 70px;
   width: 100%;
-  background-color: #f7f7f7; }
-
-.navigateTop {
-  height: 70px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center; }
-
-.navigate {
-  height: 70px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center; }
+  background-color: #f7f7f7;
+  border-bottom: 1px solid lightgrey; }
 
 .joinBox {
   width: 205px;
   height: 40px; }
+  .joinBox a {
+    text-decoration: none; }
 
 .helpBox {
   width: 49px;
   height: 40px; }
+  .helpBox a {
+    text-decoration: none; }
 
 .cartBox {
   width: 34px;
@@ -40,23 +60,19 @@
 
 .nikeBox {
   width: 103px;
-  height: 40px;
-  border: 1px solid green; }
+  height: 40px; }
 
 .jBox {
   width: 72px;
-  height: 40px;
-  border: 1px solid green; }
+  height: 40px; }
 
 .hurleyBox {
   width: 100px;
-  height: 40px;
-  border: 1px solid green; }
+  height: 40px; }
 
 .converseBox {
   width: 133px;
-  height: 40px;
-  border: 1px solid green; }
+  height: 40px; }
 
 .navigate {
   height: 50px;
@@ -120,8 +136,10 @@
   .navigate .logo img {
     display: none; } }
 * {
-  box-sizing: border-box;
-  border: 1px solid red; }
+  box-sizing: border-box; }
+
+.parent {
+  display: flex; }
 
 .left {
   display: flex;
@@ -129,9 +147,21 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items: center; }
+  .left .onFoot {
+    margin-top: 100px;
+    width: 45vw;
+    display: flex;
+    justify-content: flex-start; }
 
 .right {
-  width: 40vw; }
+  margin-top: 15px;
+  display: flex;
+  width: 40vw;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  width: 48%;
+  height: 60%; }
 
 .shop-btn {
   width: 100%;

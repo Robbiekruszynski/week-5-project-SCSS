@@ -17,36 +17,63 @@
 }
 
 
-.banner {
-@include flex-centered;
-  height: 70px;
-  width: 100%;
-  background-color:rgb(247, 247, 247);
-}
-
-.navigateTop{
-  height: 70px;
+.navParent{
+  height: 40px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid lightgrey;
+  img{
+    width: 100%;
+    // height: auto;
+  }
+
+}
+.navigateLeft{
+  height: 40px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+
+}
+.navigateRight{
+  height: 40px;
+  display: flex;
+  justify-content: flex-end;
   align-items: center;
 
 }
 
 .navigate{
-  height: 70px;
+  height: 100px;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
+.banner {
+  @include flex-centered;
+  height: 70px;
+  width: 100%;
+  background-color:rgb(247, 247, 247);
+  border-bottom: 1px solid lightgrey;
+}
+
 .joinBox{
   width: 205px;
   height:40px;
+    a{
+      text-decoration: none;
+
+    }
 }
 
 .helpBox {
   width: 49px;
   height:40px;
+    a{
+    text-decoration: none;
+  }
 }
 
 .cartBox {
@@ -61,25 +88,25 @@
 .nikeBox {
   width: 103px;
   height: 40px;
-  border: 1px solid green;
-}
+  }
+
 
 .jBox {
   width: 72px;
   height: 40px;
-  border: 1px solid green;
+
 }
 
 .hurleyBox {
   width: 100px;
   height: 40px;
-  border: 1px solid green;
+
 }
 
 .converseBox {
   width: 133px;
   height: 40px;
-  border: 1px solid green;
+
 }
 
 
