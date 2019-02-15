@@ -1,0 +1,107 @@
+@mixin flex-centered {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner {
+  @include flex-centered;
+  height: 50px;
+  width: 100%;
+  background-color: #ff788f;
+  color: white;
+  h3 {
+    font-size:16px;
+  }
+  a {
+    margin-left: 15px;
+    color: white;
+  }
+}
+
+.navigate {
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #777;
+  .menu-hamburger {
+    display : none;
+    img {
+      width: 20px;
+    }
+  }
+  .logo {
+    img {
+      height: 16px;
+      width: auto;
+    }
+    img[src="imgs/babyHeart.gif"]{
+      display: none;
+    }
+  }
+  .navigation-links {
+    @include flex-centered;
+    div {
+      margin-right: 15px;
+    }
+    div:last-child {
+      color: red;
+    }
+  }
+  .nav-right-options {
+    @include flex-centered;
+    .mobile-search {
+      display: none;
+    }
+
+    img {
+      width: 20px;
+    }
+    .search-bar {
+      display: flex;
+      align-items: center;
+      padding: 5px;
+      width: 125px;
+      border: 1px solid #ddd;
+    }
+    input {
+      width: 90px;
+      border: none;
+    }
+    a {
+      text-decoration: none;
+      color: #777;
+      margin: 0px 10px;
+    }
+  }
+}
+
+@media screen and (max-width : 768px) {
+  .navigate .navigation-links {
+    display: none;
+  }
+  .navigate .menu-hamburger{
+    display: inline-block;
+  }
+  .navigate .nav-right-options a {
+    display:none;
+  }
+  .navigate .nav-right-options .search-bar {
+    display: none;
+  }
+  .navigate .nav-right-options .mobile-search {
+    display: inline-block;
+  }
+}
+
+@media screen and (max-width: 425px) {
+    .navigate .logo  img{
+      display: none;
+    }
+
+    // .navigate .logo img[src="imgs/babyHeart.gif"] {
+    //   display: inline-block;
+    // }
+
+  }

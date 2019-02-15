@@ -1,0 +1,103 @@
+* {
+  font-family: helvetica, sans-serif;
+  font-size: 13px; }
+
+.banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 100%;
+  background-color: #ff788f;
+  color: white; }
+  .banner h3 {
+    font-size: 16px; }
+  .banner a {
+    margin-left: 15px;
+    color: white; }
+
+.navigate {
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #777; }
+  .navigate .menu-hamburger {
+    display: none; }
+    .navigate .menu-hamburger img {
+      width: 20px; }
+  .navigate .logo img {
+    height: 16px;
+    width: auto; }
+  .navigate .logo img[src="imgs/babyHeart.gif"] {
+    display: none; }
+  .navigate .navigation-links {
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .navigate .navigation-links div {
+      margin-right: 15px; }
+    .navigate .navigation-links div:last-child {
+      color: red; }
+  .navigate .nav-right-options {
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .navigate .nav-right-options .mobile-search {
+      display: none; }
+    .navigate .nav-right-options img {
+      width: 20px; }
+    .navigate .nav-right-options .search-bar {
+      display: flex;
+      align-items: center;
+      padding: 5px;
+      width: 125px;
+      border: 1px solid #ddd; }
+    .navigate .nav-right-options input {
+      width: 90px;
+      border: none; }
+    .navigate .nav-right-options a {
+      text-decoration: none;
+      color: #777;
+      margin: 0px 10px; }
+
+@media screen and (max-width: 768px) {
+  .navigate .navigation-links {
+    display: none; }
+
+  .navigate .menu-hamburger {
+    display: inline-block; }
+
+  .navigate .nav-right-options a {
+    display: none; }
+
+  .navigate .nav-right-options .search-bar {
+    display: none; }
+
+  .navigate .nav-right-options .mobile-search {
+    display: inline-block; } }
+@media screen and (max-width: 425px) {
+  .navigate .logo img {
+    display: none; } }
+* {
+  box-sizing: border-box;
+  border: 1px solid red; }
+
+.shop-btn {
+  width: 100%;
+  position: absolute;
+  bottom: 50px;
+  display: flex;
+  justify-content: center; }
+
+.shop-btn div {
+  border: 1px solid #FFF;
+  background-color: #FFF; }
+
+.shop-btn a {
+  display: inline-block;
+  padding: 8px 25px 7px;
+  text-decoration: none;
+  color: black; }
+
+/*# sourceMappingURL=output.css.map */
