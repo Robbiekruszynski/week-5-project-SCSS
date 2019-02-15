@@ -144,7 +144,8 @@
   .navigate .logo img {
     display: none; } }
 * {
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  border: 1px solid red; }
 
 .parent {
   display: flex;
@@ -181,6 +182,8 @@
       height: 1000px;
       width: 100%;
       margin-left: 100px; }
+    .parent .right form {
+      margin-top: 50px; }
 
 .bottomParent {
   display: flex;
