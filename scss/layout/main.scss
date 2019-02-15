@@ -1,53 +1,64 @@
 * {
   box-sizing: border-box;
-  border: 1px solid red
+  // border: 1px solid red
 }
 
 .parent {
   display: flex;
-  width: 100%;
+  width: 90%;
   flex-wrap: wrap;
   margin-top: 45px;
   margin-left: 100px;;
-  margin-right: auto;
-    .left{
+  margin-right: 100;
+  .left{
+    display: flex;
+    width: 50%;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    .onFoot {
+      margin-top: 100px;
+      width: 50vw;
       display: flex;
-      width: 50%;
-      flex-wrap: wrap;
       justify-content: flex-start;
-      align-items: center;
-        .onFoot {
-          margin-top: 100px;
-          width: 50vw;
-          display: flex;
-          justify-content: flex-start;
-      }
+    }
   }
-    .right{
-      display: flex;
-      width: 45%;
-      flex-wrap: wrap;
-
-      margin-bottom: 950px;
-        h2{
-          margin-left: 100px;
+  .right{
+    display: flex;
+    width: 45%;
+    flex-wrap: wrap;
+    margin-bottom: 950px;
+      h2{
+        text-align: center;
+      margin-left: 50%;
+      height: auto;
+        display: flex;
+        justify-content: space-between;
+      }
+      h1{
+        // margin-left: 300px;
+        display: flex;
+        justify-content: space-between;
+      }
+      .colorWay{
+        height: 1000px;
+        width: 100%;
+        // margin-left: 100px;
+        img{
+          margin-left: 30%;
           display: flex;
-          justify-content: space-between;
-        }
-        h1{
-          margin-left: 100px;
-          display: flex;
-          justify-content: space-between;
-        }
-        .colorWay{
-          height: 1000px;
-          width: 100%;
-          margin-left: 100px;
-        }
-        form {
-          margin-top: 50px;
+          flex-direction: row;
+          justify-content: flex-end;
         }
       }
+      form {
+        margin-top: 50px;
+        text-align: center;
+      }
+      h3 {
+        margin-left: auto;
+      }
+    }
   }
 
   .bottomParent {

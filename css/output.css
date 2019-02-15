@@ -144,16 +144,15 @@
   .navigate .logo img {
     display: none; } }
 * {
-  box-sizing: border-box;
-  border: 1px solid red; }
+  box-sizing: border-box; }
 
 .parent {
   display: flex;
-  width: 100%;
+  width: 90%;
   flex-wrap: wrap;
   margin-top: 45px;
   margin-left: 100px;
-  margin-right: auto; }
+  margin-right: 100; }
   .parent .left {
     display: flex;
     width: 50%;
@@ -171,19 +170,27 @@
     flex-wrap: wrap;
     margin-bottom: 950px; }
     .parent .right h2 {
-      margin-left: 100px;
+      text-align: center;
+      margin-left: 50%;
+      height: auto;
       display: flex;
       justify-content: space-between; }
     .parent .right h1 {
-      margin-left: 100px;
       display: flex;
       justify-content: space-between; }
     .parent .right .colorWay {
       height: 1000px;
-      width: 100%;
-      margin-left: 100px; }
+      width: 100%; }
+      .parent .right .colorWay img {
+        margin-left: 30%;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end; }
     .parent .right form {
-      margin-top: 50px; }
+      margin-top: 50px;
+      text-align: center; }
+    .parent .right h3 {
+      margin-left: auto; }
 
 .bottomParent {
   display: flex;
@@ -203,21 +210,8 @@
   color: white;
   text-align: center; }
 
-.shop-btn {
-  width: 100%;
-  position: absolute;
-  bottom: 50px;
-  display: flex;
-  justify-content: center; }
-
-.shop-btn div {
-  border: 1px solid #FFF;
-  background-color: #FFF; }
-
-.shop-btn a {
-  display: inline-block;
-  padding: 8px 25px 7px;
-  text-decoration: none;
-  color: black; }
+form {
+  margin-top: 50px;
+  text-align: center; }
 
 /*# sourceMappingURL=output.css.map */
