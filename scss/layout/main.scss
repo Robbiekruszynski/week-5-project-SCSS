@@ -5,47 +5,46 @@
 
 .parent {
   display: flex;
-  width: 55vw;
+  width: 100%;
+  // flex-direction: column;
   flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
+  // justify-content: center;
+  // align-items: center;
   margin-top: 45px;
   margin-left: 100px;;
-  // margin-right: auto;
+  margin-right: auto;
     .left{
       display: flex;
-      width: 50vw;
+      width: 50%;
       flex-wrap: wrap;
-      justify-content: center;
+      justify-content: flex-start;
       align-items: center;
         .onFoot {
           margin-top: 100px;
-          width: 45vw;
+          width: 50vw;
           display: flex;
           justify-content: flex-start;
       }
   }
+    .right{
+      display: flex;
+      width: 45%;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-bottom: 950px;
 
-  .right{
-    // margin-top: 15px;
-    display: flex;
-    // width: 40vw;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    align-items: center;
-    // width:48%;
-    // height: 60%;
   }
 }
 
   .bottomParent {
     display: flex;
-    width: 90vw;
+    width:93vw;
     // flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     margin-top: 60px;
     margin-right: 100px;;
+    margin-bottom: 200px;
 
   }
 

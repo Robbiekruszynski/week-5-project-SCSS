@@ -147,36 +147,37 @@
 
 .parent {
   display: flex;
-  width: 55vw;
+  width: 100%;
   flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
   margin-top: 45px;
-  margin-left: 100px; }
+  margin-left: 100px;
+  margin-right: auto; }
   .parent .left {
     display: flex;
-    width: 50vw;
+    width: 50%;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center; }
     .parent .left .onFoot {
       margin-top: 100px;
-      width: 45vw;
+      width: 50vw;
       display: flex;
       justify-content: flex-start; }
   .parent .right {
     display: flex;
+    width: 45%;
     flex-wrap: wrap;
-    justify-content: flex-start;
-    align-items: center; }
+    justify-content: center;
+    margin-bottom: 950px; }
 
 .bottomParent {
   display: flex;
-  width: 90vw;
+  width: 93vw;
   justify-content: center;
   align-items: center;
   margin-top: 60px;
-  margin-right: 100px; }
+  margin-right: 100px;
+  margin-bottom: 200px; }
 
 .footer {
   left: 0;
