@@ -113,8 +113,9 @@
     .navigate .nav-right-options .search-bar {
       display: flex;
       align-items: center;
+      margin-right: 15px;
       padding: 5px;
-      width: 125px;
+      width: 200px;
       border: 1px solid #ddd; }
     .navigate .nav-right-options input {
       width: 90px;
@@ -167,8 +168,19 @@
     display: flex;
     width: 45%;
     flex-wrap: wrap;
-    justify-content: center;
     margin-bottom: 950px; }
+    .parent .right h2 {
+      margin-left: 100px;
+      display: flex;
+      justify-content: space-between; }
+    .parent .right h1 {
+      margin-left: 100px;
+      display: flex;
+      justify-content: space-between; }
+    .parent .right .colorWay {
+      height: 1000px;
+      width: 100%;
+      margin-left: 100px; }
 
 .bottomParent {
   display: flex;

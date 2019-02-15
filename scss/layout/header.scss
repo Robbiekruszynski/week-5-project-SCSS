@@ -140,7 +140,7 @@
       width: auto;
     }
   }
-  
+
   .navigation-links {
     @include flex-centered;
     div {
@@ -160,8 +160,9 @@
     .search-bar {
       display: flex;
       align-items: center;
+      margin-right: 15px;
       padding: 5px;
-      width: 125px;
+      width: 200px;
       border: 1px solid #ddd;
     }
     input {
