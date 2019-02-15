@@ -6,28 +6,50 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 50px;
+  height: 70px;
   width: 100%;
-  background-color: #f7f7f7;
-  color: black; }
-  .banner h3 {
-    font-size: 16px; }
-  .banner a {
-    margin-left: 15px;
-    color: white; }
+  background-color: #f7f7f7; }
 
-.bannerTop {
+.navigateTop {
+  height: 70px;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  height: 50px;
-  width: 100%;
-  color: black; }
-  .bannerTop h3 {
-    font-size: 16px; }
-  .bannerTop a {
-    margin-left: 15px;
+  align-content: space-around; }
+
+.navigate {
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+  .navigate .leftSideBoxes {
+    display: flex;
+    justify-content: flex-start;
+    align-items: space-between;
+    height: 50px;
+    width: 100%;
     color: black; }
+    .navigate .leftSideBoxes h3 {
+      font-size: 16px; }
+    .navigate .leftSideBoxes a {
+      margin-left: 15px;
+      color: black; }
+
+.joinBox {
+  width: 205px;
+  height: 40px; }
+
+.helpBox {
+  width: 49px;
+  height: 40px; }
+
+.cartBox {
+  width: 34px;
+  height: 26px; }
+
+.flagBox {
+  width: 14px;
+  height: 30px; }
 
 .nikeBox {
   width: 103px;
@@ -35,17 +57,17 @@
   border: 1px solid green; }
 
 .jBox {
-  width: 103px;
+  width: 72px;
   height: 40px;
   border: 1px solid green; }
 
 .hurleyBox {
-  width: 103px;
+  width: 100px;
   height: 40px;
   border: 1px solid green; }
 
 .converseBox {
-  width: 103px;
+  width: 133px;
   height: 40px;
   border: 1px solid green; }
 
@@ -60,10 +82,8 @@
     .navigate .menu-hamburger img {
       width: 20px; }
   .navigate .logo img {
-    height: 16px;
+    height: 50px;
     width: auto; }
-  .navigate .logo img[src="imgs/babyHeart.gif"] {
-    display: none; }
   .navigate .navigation-links {
     display: flex;
     justify-content: center;

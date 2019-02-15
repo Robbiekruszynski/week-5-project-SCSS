@@ -4,32 +4,87 @@
   align-items: center;
 }
 
+@mixin flex-left-side {
+  display: flex;
+  justify-content:flex-start;
+  align-items: space-between;
+}
+
+@mixin flex-right-side {
+  display: flex;
+  justify-content:flex-end;
+  align-items: space-between;
+}
+
+
 .banner {
-  @include flex-centered;
-  height: 50px;
+@include flex-centered;
+  height: 70px;
   width: 100%;
   background-color:rgb(247, 247, 247);
-  color: black;
-  h3 {
-    font-size:16px;
-  }
-  a {
-    margin-left: 15px;
-    color: white;
-  }
 }
-.bannerTop {
-  @include flex-centered;
-  height: 50px;
-  width: 100%;
-  color: black;
-  h3 {
-    font-size:16px;
-  }
-  a {
-    margin-left: 15px;
+.navigateTop{
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: space-around;
+  // .leftSideBoxes{
+  //   @include flex-left-side;
+  //   height: 50px;
+  //   width: 100%;
+  //   color: black;
+  //   h3 {
+  //     font-size:16px;
+  //   }
+  //   a {
+  //     margin-left: 15px;
+  //     color: black;
+  //   }
+  //
+  // }
+
+}
+
+.navigate{
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  .leftSideBoxes{
+    @include flex-left-side;
+    height: 50px;
+    width: 100%;
     color: black;
+    h3 {
+      font-size:16px;
+    }
+    a {
+      margin-left: 15px;
+      color: black;
+    }
+
   }
+
+}
+
+.joinBox{
+  width: 205px;
+  height:40px;
+}
+
+.helpBox {
+  width: 49px;
+  height:40px;
+}
+
+.cartBox {
+  width: 34px;
+  height: 26px;
+}
+.flagBox {
+  width: 14px;
+  height: 30px;
 }
 
 .nikeBox {
@@ -39,22 +94,23 @@
 }
 
 .jBox {
-  width: 103px;
+  width: 72px;
   height: 40px;
   border: 1px solid green;
 }
 
 .hurleyBox {
-  width: 103px;
+  width: 100px;
   height: 40px;
   border: 1px solid green;
 }
 
 .converseBox {
-  width: 103px;
+  width: 133px;
   height: 40px;
   border: 1px solid green;
 }
+
 
 .navigate {
   height: 50px;
@@ -70,12 +126,12 @@
   }
   .logo {
     img {
-      height: 16px;
+      height: 50px;
       width: auto;
     }
-    img[src="imgs/babyHeart.gif"]{
-      display: none;
-    }
+    // img[src="imgs/babyHeart.gif"]{
+    //   display: none;
+    // }
   }
   .navigation-links {
     @include flex-centered;
