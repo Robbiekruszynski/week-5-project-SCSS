@@ -14,26 +14,13 @@
   height: 70px;
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  align-content: space-around; }
+  align-items: center; }
 
 .navigate {
   height: 70px;
   display: flex;
   justify-content: space-between;
   align-items: center; }
-  .navigate .leftSideBoxes {
-    display: flex;
-    justify-content: flex-start;
-    align-items: space-between;
-    height: 50px;
-    width: 100%;
-    color: black; }
-    .navigate .leftSideBoxes h3 {
-      font-size: 16px; }
-    .navigate .leftSideBoxes a {
-      margin-left: 15px;
-      color: black; }
 
 .joinBox {
   width: 205px;
@@ -136,16 +123,15 @@
   box-sizing: border-box;
   border: 1px solid red; }
 
-.left .left-photos {
-  position: relative;
-  box-sizing: border-box;
-  width: 50%; }
-.left img {
+.left {
   display: flex;
-  flex-direction: row;
+  width: 50vw;
   flex-wrap: wrap;
-  align-content: space-between;
-  width: 50%; }
+  justify-content: center;
+  align-items: center; }
+
+.right {
+  width: 40vw; }
 
 .shop-btn {
   width: 100%;

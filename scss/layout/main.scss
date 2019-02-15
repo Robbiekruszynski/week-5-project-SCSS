@@ -5,19 +5,20 @@
 
 
   .left{
-     // @include flex-cat;
-    .left-photos{
-      position: relative;
-      box-sizing: border-box;
-      width:50%
-      // padding: 10px 0px;
-    }
-    img{
       display: flex;
-      flex-direction: row;
+      width: 50vw;
       flex-wrap: wrap;
-      align-content: space-between;
+      justify-content: center;
+      align-items: center;
+  }
 
-      width: 50%;
-    }
+  .right{
+    // margin-top: 15px;
+    // display: flex;
+    width: 40vw;
+    // flex-wrap: wrap;
+    // justify-content: flex-start;
+    // align-items: center;
+    // width:48%;
+    // height: 60%;
   }
