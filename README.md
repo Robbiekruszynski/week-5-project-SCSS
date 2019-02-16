@@ -14,8 +14,12 @@ to an extent where it is recognizable, but also allowing for freedom to incorpor
 * The user will experience breakpoints at the following resolutions
 * 1995px - right column removes itself
 * 768px - right column / nav bars / footer removes itself for clean UI
-![Original Version](img/original.png "Title")
-![Alt Version](img/copycat.png "Title")
+* First photo is orignial
+![Original Version](img/original.png)
+* Second photo is created project
+![Alt Version](img/copycat.png)
+* Third photo is created project reduced to 768px responsive design active
+![Responsive at 768px Version](img/compressed.png)
 
 ## Setup/Installation Requirements
 

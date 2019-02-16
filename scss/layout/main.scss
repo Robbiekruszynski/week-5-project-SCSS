@@ -107,6 +107,13 @@
   .navigateRight {
     display: none;
   }
+  .navigate {
+    @include flex-full-width;
+    .searchBar {
+      display: none;
+    }
+
+  }
   .banner {
     display: none;
   }

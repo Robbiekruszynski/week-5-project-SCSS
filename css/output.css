@@ -38,15 +38,6 @@
   background-color: #f7f7f7;
   border-bottom: 1px solid lightgrey; }
 
-.joinBox {
-  width: 205px;
-  height: 20px; }
-  .joinBox a {
-    color: lightgrey;
-    text-decoration: none; }
-  .joinBox a:hover {
-    color: black; }
-
 .helpBox {
   width: 49px;
   height: 20px; }
@@ -133,10 +124,7 @@
     display: none; }
 
   .navigate .nav-right-options .search-bar {
-    display: none; }
-
-  .navigate .nav-right-options .mobile-search {
-    display: inline-block; } }
+    display: none; } }
 * {
   box-sizing: border-box; }
 
@@ -225,6 +213,13 @@
 
   .navigateRight {
     display: none; }
+
+  .navigate {
+    width: 100%;
+    display: flex;
+    flex-direction: column; }
+    .navigate .searchBar {
+      display: none; }
 
   .banner {
     display: none; }
