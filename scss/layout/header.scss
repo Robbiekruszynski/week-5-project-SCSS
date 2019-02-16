@@ -62,13 +62,13 @@
 .joinBox{
   width: 205px;
   height:20px;
-    a{
-      color:lightgrey;
-      text-decoration: none;
-    }
-    a:hover{
-      color: black;
-    }
+  a{
+    color:lightgrey;
+    text-decoration: none;
+  }
+  a:hover{
+    color: black;
+  }
 }
 
 .helpBox {
@@ -99,7 +99,7 @@
 .nikeBox {
   width: 103px;
   height: 40px;
-  }
+}
 
 
 .jBox {
@@ -181,9 +181,7 @@
   .navigate .navigation-links {
     display: none;
   }
-  .navigate .menu-hamburger{
-    display: inline-block;
-  }
+
   .navigate .nav-right-options a {
     display:none;
   }
@@ -194,10 +192,3 @@
     display: inline-block;
   }
 }
-
-@media screen and (max-width: 425px) {
-    .navigate .logo  img{
-      display: none;
-    }
-    
-  }

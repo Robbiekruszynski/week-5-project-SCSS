@@ -129,9 +129,6 @@
   .navigate .navigation-links {
     display: none; }
 
-  .navigate .menu-hamburger {
-    display: inline-block; }
-
   .navigate .nav-right-options a {
     display: none; }
 
@@ -140,9 +137,6 @@
 
   .navigate .nav-right-options .mobile-search {
     display: inline-block; } }
-@media screen and (max-width: 425px) {
-  .navigate .logo img {
-    display: none; } }
 * {
   box-sizing: border-box; }
 
@@ -163,14 +157,17 @@
       margin-top: 15%; }
   .parent .right {
     display: flex;
-    width: 40%;
+    margin-left: 190px;
+    width: 39%;
     flex-wrap: wrap;
-    margin-bottom: 950px; }
+    margin-bottom: 10px; }
     .parent .right .rightText {
       text-align: center;
-      width: 100%; }
+      width: 100%;
+      length: 50px;
+      height: 20px; }
     .parent .right .colorWay {
-      height: 1000px;
+      margin-top: -850px;
       width: 100%; }
       .parent .right .colorWay .smallShoes {
         margin-left: 30%; }
@@ -212,8 +209,36 @@
   color: white;
   text-align: center; }
 
+@media screen and (max-width: 1995px) {
+  .parent {
+    width: 100%;
+    display: flex;
+    flex-direction: column; }
+
+  .rightText {
+    width: 100%;
+    display: flex;
+    flex-direction: column; } }
 @media screen and (max-width: 768px) {
-  .right {
+  .navigateLeft {
+    display: none; }
+
+  .navigateRight {
+    display: none; }
+
+  .banner {
+    display: none; }
+
+  .rightText {
+    display: none; }
+
+  .colorWay {
+    display: none; }
+
+  .bottomParent {
+    margin-left: 13%; }
+
+  .footer {
     display: none; } }
 form {
   margin-top: 50px;
