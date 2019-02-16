@@ -18,10 +18,10 @@ to an extent where it is recognizable, but also allowing for freedom to incorpor
 ![Original Version](img/original.png)
 * Second photo is created project
 ![Alt Version](img/copycat.png)
-* Third photo is created project reduced to 768px responsive design active
-![Responsive at 768px Version](img/compressed.png)
-* Fourth photo is created project *above* 768px responsive design active
+* Third photo is created project *above* 768px responsive design active
 ![Responsive above 768px Version](img/breaksmall.png)
+* Fourth photo is created project reduced to 768px responsive design active
+![Responsive at 768px Version](img/compressed.png)
 
 ## Specs
 * Spec: When the user visits site all given information is shown provided resolution requirements are met.

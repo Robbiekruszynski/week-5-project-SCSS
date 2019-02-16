@@ -134,7 +134,8 @@
   .navigate .nav-right-options .search-bar {
     display: none; } }
 * {
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  border: 1px solid red; }
 
 .parent {
   display: flex;
