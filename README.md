@@ -31,7 +31,7 @@ to an extent where it is recognizable, but also allowing for freedom to incorpor
 ## Setup/Installation Requirements
 
 * Open your preferred browser
-* to view live project please visit:
+* to view live project please visit: https://robbiekruszynski.github.io/week-5-project-SCSS/
 * Or copy / paste be sure you're in your Desktop directory
 * clone or download  your Desktop https://github.com/Robbiekruszynski/week-5-project-SCSS.git
 * Open the week-5-project and run index.html with your selected browser
