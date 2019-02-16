@@ -1,6 +1,6 @@
 * {
   box-sizing: border-box;
-  border: 1px solid red
+  // border: 1px solid red
 }
 
 .parent {
@@ -91,12 +91,15 @@
   text-align: center;
 }
 
-@media screen and (max-width : 1995px) {
+@media screen and (max-width : 1900px) {
   .parent {
-    @include flex-full-width;
+    display: inline-block;
   }
   .rightText {
-    @include flex-full-width;
+    display: none;
+  }
+  .colorWay {
+    display:none;
   }
 }
 

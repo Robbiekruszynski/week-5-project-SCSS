@@ -134,8 +134,7 @@
   .navigate .nav-right-options .search-bar {
     display: none; } }
 * {
-  box-sizing: border-box;
-  border: 1px solid red; }
+  box-sizing: border-box; }
 
 .parent {
   display: flex;
@@ -206,16 +205,15 @@
   color: white;
   text-align: center; }
 
-@media screen and (max-width: 1995px) {
+@media screen and (max-width: 1900px) {
   .parent {
-    width: 100%;
-    display: flex;
-    flex-direction: column; }
+    display: inline-block; }
 
   .rightText {
-    width: 100%;
-    display: flex;
-    flex-direction: column; } }
+    display: none; }
+
+  .colorWay {
+    display: none; } }
 @media screen and (max-width: 768px) {
   .navigateLeft {
     display: none; }
