@@ -21,6 +21,11 @@ to an extent where it is recognizable, but also allowing for freedom to incorpor
 * Third photo is created project reduced to 768px responsive design active
 ![Responsive at 768px Version](img/compressed.png)
 
+## Specs
+* Spec: When the user visits site all given information is shown provided resolution requirements are met.
+* Spec: When the user falls below 1195px there is a breakpoint where the right column will become absent.
+* Spec: When the user  falls below 768px there is a breakpoint removing all but one navigation bar and images stored on the left column.
+
 ## Setup/Installation Requirements
 
 * Open your preferred browser
