@@ -63,8 +63,20 @@
 
 .helpBox {
   width: 49px;
-  height: 20px;
+  height: 15px;
   a{
+    color:lightgrey;
+    text-decoration: none;
+  }
+  a:hover{
+    color: black;
+  }
+}
+
+.joinBox {
+  a{
+    height: 5px;
+    margin-right: 10px;
     color:lightgrey;
     text-decoration: none;
   }
@@ -178,5 +190,5 @@
   .navigate .nav-right-options .search-bar {
     display: none;
   }
-  
+
 }

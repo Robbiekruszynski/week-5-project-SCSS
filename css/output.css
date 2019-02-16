@@ -40,12 +40,20 @@
 
 .helpBox {
   width: 49px;
-  height: 20px; }
+  height: 15px; }
   .helpBox a {
     color: lightgrey;
     text-decoration: none; }
   .helpBox a:hover {
     color: black; }
+
+.joinBox a {
+  height: 5px;
+  margin-right: 10px;
+  color: lightgrey;
+  text-decoration: none; }
+.joinBox a:hover {
+  color: black; }
 
 .cartBox {
   width: 30px;
