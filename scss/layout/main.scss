@@ -1,84 +1,46 @@
 * {
   box-sizing: border-box;
-  // border: 1px solid red
+  border: 1px solid blue
 }
-
+.site-container {
+  width: 100%;
+}
 .parent {
   display: flex;
-  width: 90%;
+  width: 100%;
   flex-wrap: wrap;
+  justify-content: space-between;
   margin-top: 3%;
-  margin-left: 100px;;
-  margin-right: 100px;
-  length: auto;
   bottom: 0px;
   .left{
-    display: flex;
-    width: 50%;
+    width: 49%;
     flex-wrap: wrap;
-
+    img {
+      width: 20vw;
+    }
     .onFoot {
       margin-top: 15%;
     }
   }
   .right{
-    display: flex;
-    margin-left: 190px;
-    width: 39%;
-    flex-wrap: wrap;
-    margin-bottom: 10px;
-    .rightText{
-      text-align: center;
-
-      width: 100%;
-      length: 50px;
-      height: 20px;
+    width: 45%;
+    img {
+      display: flex;
+      justify-content: center;
+      // margin-left: 10%;
     }
 
-    .colorWay{
-      margin-top: -850px;
-
-      width: 100%;
-      .smallShoes{
-        margin-left: 30%;
-      }
-      img{
-        margin-left: 20%;
-        display: flex;
-        flex-direction: row;
-        justify-content: flex-end;
-      }
-      .smallShoes {
-        margin-left: 25%;
-      }
-    }
-    form {
-      width: 100%;
-      margin-top: 50px;
-      text-align: center;
-    }
-    h3 {
-      margin-left: auto;
-      width: 100%;
-      text-align: center;
-    }
-    ul {
-      margin-left: auto;
-      width: 100%;
-      text-align: center;
-      list-style-type: none;
-    }
   }
 }
 
 .bottomParent {
   display: flex;
-  width:93vw;
+  width:100%;
   justify-content: center;
   align-items: center;
-  margin-right: 100px;;
-  margin-bottom: 200px;
-
+  img {
+    width: 100%;
+  }
 }
 
 .footer {
@@ -89,17 +51,8 @@
   background-color: black;
   color: white;
   text-align: center;
-}
-
-@media screen and (max-width : 1900px) {
-  .parent {
-    display: inline-block;
-  }
-  .rightText {
-    display: none;
-  }
-  .colorWay {
-    display:none;
+  img {
+    width: 100%;
   }
 }
 
@@ -120,14 +73,26 @@
   .banner {
     display: none;
   }
-  .rightText {
+  .parent{
+    display: flex;
+    width: 100%;
+    img {
+      display: flex;
+      flex-direction: column;
+      // left margin: 25%;
+      // width: 100%;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+  }
+  .right {
     display: none;
   }
-  .colorWay {
+  .onFoot {
     display: none;
   }
   .bottomParent {
-    margin-left: 13%;
+    display: none;
   }
   .footer {
     display: none;
