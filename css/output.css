@@ -201,6 +201,10 @@
   display: flex;
   justify-content: center;
 }
+.parent .right .topRight {
+  display: flex;
+  justify-content: space-between;
+}
 
 .bottomParent {
   display: flex;

@@ -1,6 +1,6 @@
 * {
   box-sizing: border-box;
-  border: 1px solid blue
+  border: 1px solid blue;
 }
 .site-container {
   width: 100%;
@@ -27,11 +27,17 @@
     img {
       display: flex;
       justify-content: center;
-      // margin-left: 10%;
     }
-
+    .topRight{
+      display: flex;
+      justify-content: space-between;
+      }
+      // .smallShoe{
+      //   // display:flex;
+      //   // justify-content: center;
+      // }
+    }
   }
-}
 
 .bottomParent {
   display: flex;
@@ -78,11 +84,9 @@
     width: 100%;
     img {
       display: flex;
-      flex-direction: column;
-      // left margin: 25%;
-      // width: 100%;
-      justify-content: center;
       flex-wrap: wrap;
+      flex-direction: column;
+      justify-content: center;
     }
   }
   .right {
